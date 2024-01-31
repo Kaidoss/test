@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperimento del gatto di Schrödinger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Esperimento del gatto di Schrödinger</h1>
+        <p>Il gatto è in una scatola chiusa con una bottiglia di veleno. La bottiglia è collegata a una sorgente di radiazione. Se la radiazione colpisce la bottiglia, il veleno sarà rilasciato e il gatto morirà.</p>
+        <button id="open-box-btn">Apri la scatola</button>
+        <button id="close-box-btn">Chiudi la scatola</button>
+        <div id="cat-box" class="hidden">
+            <img src="cat.jpg" alt="Gatto">
+        </div>
+        <div id="radiation-source" class="hidden">
+            <img src="radiation.jpg" alt="Sorgente di radiazione">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
