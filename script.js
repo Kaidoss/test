@@ -3,7 +3,6 @@
 const catBox = document.getElementById("cat-box");
 const radiationSource = document.getElementById("radiation-source");
 const openBtn = document.getElementById("open-box-btn");
-const closeBtn = document.getElementById("close-box-btn");
 
 let isOpen = false;
 
@@ -20,4 +19,3 @@ function toggleBox() {
 }
 
 openBtn.addEventListener("click", toggleBox);
-closeBtn.addEventListener("click", toggleBox);
